@@ -25,6 +25,7 @@ html {
  */
 
 body {
+  color: #5D6769;
   margin: 0;
 }
 
@@ -231,6 +232,7 @@ audio:not([controls]) {
 
 img {
   border-style: none;
+  width: 100%;
 }
 
 /**

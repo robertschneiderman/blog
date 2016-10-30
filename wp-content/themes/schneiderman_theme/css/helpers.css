@@ -1,0 +1,10 @@
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;  
+}
+
+.ibm {
+  display: inline-block;
+  vertical-align: middle;
+}

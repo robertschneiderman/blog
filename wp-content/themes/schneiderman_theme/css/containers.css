@@ -1,0 +1,7 @@
+#container {display: flex;justify-content: space-between;margin: 0 auto;max-width: 1300px;}
+
+#content {width: 65%;}
+
+#sidebar {
+  width: 30%;
+}
