@@ -1,0 +1,7 @@
+#back-stripes {
+	fill: hsl(284, 18%, 52%);
+}
+
+#forward-stripes rect {
+	fill: hsl(284, 18%, 51%);
+}
