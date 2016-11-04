@@ -5,8 +5,16 @@
 }
 
 .sm-icon {
+  border-radius: 50%;
+  display: block;
   height: 3rem;
   width: 3rem;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.sm-icon:hover {
+  transform: scale(1.2);
 }
 
 .author-container {margin-bottom: 2rem;}
@@ -26,7 +34,7 @@
 
 .author-description {font-size: 1rem;line-height: 1.7;}
 
-.newsletter {background-color: #eee;padding: 2rem;margin-bottom: 2rem;text-align: center;}
+.newsletter {background-color: #eee;padding: 2rem;margin-bottom: 3rem;text-align: center;}
 
 .newsletter-title {margin: 0 0 1rem;}
 

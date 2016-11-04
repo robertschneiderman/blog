@@ -36,7 +36,7 @@
 
 .article {
   color: #444;
-  padding: 3rem 0 0;
+  padding: 9rem 0 0;
   margin: 0 auto;
   max-width: 1250px;
   width: 90%;
@@ -44,9 +44,9 @@
   justify-content: space-between;
 }
 
-.entry-title {font-family: Crete Round;line-height: 1.5;}
+.entry-title {line-height: 1.5;}
 
-.entry-title a {color: #fff;font-family: Klavika;font-size: 5rem;text-transform: uppercase;}
+.entry-title a {color: #fff;font-family: Klavika;font-size: 5rem;/* text-transform: uppercase; */}
 
 .post-edit-link {display: none;position: absolute;}
 
@@ -62,7 +62,7 @@
   
 }
 
-.entry-content > p {margin: 0 0 2rem;}
+.entry-content > p {margin: 0 0 1.4rem;}
 
 .entry-content blockquote {background-color: #f7f7f7;border-left: 3px solid rebeccapurple;margin: 0 0 2rem;padding: 0.6rem 2rem;font-style: italic;}
 
@@ -70,7 +70,7 @@
 
 }
 
-.entry-content h2 {font-family: Klavika;font-size: 2.2rem;margin: 0 0 1rem;}
+.entry-content h2 {font-family: Klavika;font-size: 2.2rem;line-height: 2;margin: 2.5rem 0 0rem;}
 
 .entry-content pre {
 

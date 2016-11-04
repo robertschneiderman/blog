@@ -22,6 +22,7 @@
       <img src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/facebook.svg" alt="" class="sm-icon">
       <img src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/twitter.svg" alt="" class="sm-icon">
       <img src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/linkedin.svg" alt="" class="sm-icon">
+      <img src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/google-plus.svg" alt="" class="sm-icon">
     </div>
   </div>
 
