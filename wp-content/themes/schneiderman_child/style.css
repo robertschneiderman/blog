@@ -7,6 +7,11 @@
  Version:        1.0.0
 */
  
-@import url("../schneiderman/style.css");
- 
+@import url('./css/normalize.css');
+@import url('./css/defaults.css');
+@import url('./css/helpers.css');
+
+@import url('./css/containers.css');
+@import url('./css/article.css');
+@import url('./css/sidebar.css'); 
 

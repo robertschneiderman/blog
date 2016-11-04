@@ -1,0 +1,38 @@
+.sm {
+  padding: 0rem 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.sm-icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.author-container {margin-bottom: 2rem;}
+
+.author-img {display: block;}
+
+.author-text {
+  background-color: #eee;
+  padding: 2rem;
+}
+.author-name {
+  background-color: #eee;
+  font-family: Klavika;
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+.author-description {font-size: 1rem;line-height: 1.7;}
+
+.newsletter {background-color: #eee;padding: 2rem;margin-bottom: 2rem;text-align: center;}
+
+.newsletter-title {margin: 0 0 1rem;}
+
+.newsletter-description {font-size: 0.9rem;margin-bottom: 1rem;line-height: 1.5;}
+
+.newsletter-input {display: block;padding: 0.6rem;width: 100%;margin-bottom: 0.4rem;font-size: 1rem;}
+
+.newsletter-btn {background-color: rgba(232,82,82,1);border: 0px solid #ccc;color: #fff;cursor: pointer;font-size: 1rem;padding: 0.7rem;width: 100%;}
+

@@ -1,6 +1,6 @@
 #container {display: flex;justify-content: space-between;margin: 0 auto;max-width: 1300px;}
 
-#content {width: 65%;}
+#content {max-width: 1300px;}
 
 #sidebar {
   width: 30%;
