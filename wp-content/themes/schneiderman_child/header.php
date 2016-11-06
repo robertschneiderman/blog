@@ -4,28 +4,47 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
+<meta property="og:title" content="My Shared Article Title" />
+<meta property="og:description" content="Description of shared article" />
+<meta property="og:url" content="http://example.com/my_article.html" />
+<meta property="og:image" content="http://example.com/foo.jpg" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
+
+
 <?php wp_head(); ?>
+
 </head>
 <body <?php body_class(); ?>>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1784214481850470',
+      xfbml      : true,
+      version    : 'v1.0'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script>
+  const fbDialog = e => {
+    FB.ui({
+      method: 'share',
+      href: 'https://developers.facebook.com/docs/',
+    }, function(response){});
+  };
+</script>
+
+
 <div id="wrapper" class="hfeed">
-<header id="header" role="banner">
-<section id="branding">
-<div id="site-title"><?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '<h1>'; } ?>
-<!-- <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a><?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1>'; } ?></div> -->
-<!-- <div id="site-description"><?php bloginfo( 'description' ); ?></div> -->
-</section>
-<nav id="menu" role="navigation">
-<div id="search">
-<?php
-  // get_search_form();
-?>
-</div>
-<?php
-  // wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
-?>
-</nav>
-</header>
 <div id="container">
 
 <?php

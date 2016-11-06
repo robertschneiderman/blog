@@ -16,3 +16,7 @@
 .sb {
   justify-content: space-between;
 }
+
+.none {
+  display: none !important;
+}
