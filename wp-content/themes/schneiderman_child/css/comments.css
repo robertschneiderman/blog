@@ -99,3 +99,7 @@
 }
 
 .form-submit input[type="submit"] {background-color: #e85252;border: 0;border-radius: 2px;color: #fff;padding: 1rem;font-family: Merriweather;}
+
+#nav-below {
+  margin-top: 2rem;
+}

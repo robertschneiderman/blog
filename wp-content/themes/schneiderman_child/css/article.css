@@ -34,9 +34,16 @@
   top: 50%;
 }
 
+.excerpt {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.9;
+  margin-bottom: 3rem;
+}
+
 .article {
   color: #444;
-  padding: 9rem 0 0;
+  padding: 5rem 0 0;
   margin: 0 auto;
   max-width: 1250px;
   width: 90%;
@@ -56,8 +63,8 @@
 
 .author-avatar {
   border-radius: 50%;
-  height: 3rem;
-  width: 3rem;
+  height: 2.5rem;
+  width: 2.5rem;
   vertical-align: middle;
   display: inline-block;
 }
@@ -86,7 +93,7 @@
 }
 
 .entry-content h3 {
-  
+  margin: 0;
 }
 
 .entry-content > p {margin: 0 0 1.4rem;}

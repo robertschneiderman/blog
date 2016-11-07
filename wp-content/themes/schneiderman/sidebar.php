@@ -12,7 +12,7 @@
 
   <div class="newsletter">
     <h3 class="newsletter-title">Newsletter</h3>
-    <p class="newsletter-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+    <p class="newsletter-description">I will release an awesome article every Monday. Sign up!</p>
 
 
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
