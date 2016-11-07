@@ -62,5 +62,5 @@
 
 .newsletter-input {display: block;padding: 0.6rem !important;width: 100% !important;margin-bottom: 0 !important;border: 1px solid #ddd !important;font-size: 1rem !important;}
 
-.newsletter-btn {background-color: rgba(232,82,82,1);border: 0px solid #ccc !important;color: #fff;cursor: pointer;font-size: 1rem;padding: 0.7rem;margin: 0 !important;width: 100% !important;}
+.newsletter-btn {background-color: rgba(232,82,82,1);border: 0px solid #ccc !important;color: #fff;cursor: pointer;font-size: 1rem;padding: 0.7rem;margin: 0 !important;width: 100% !important;font-family: Merriweather;}
 

@@ -6,7 +6,7 @@ global $comments_by_type;
 $comments_by_type = &separate_comments( $comments );
 if ( ! empty( $comments_by_type['comment'] ) ) : 
 ?>
-<section id="comments-list" class="comments">
+<section id="comments-list" class="comments-list">
 <h3 class="comments-title"><?php comments_number(); ?></h3>
 <?php if ( get_comment_pages_count() > 1 ) : ?>
 <nav id="comments-nav-above" class="comments-navigation" role="navigation">

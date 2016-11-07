@@ -2,37 +2,100 @@
 
 }
 
-.comment-list {
+.comments-list {margin-bottom: 7rem;}
 
+.comments-list ul {
+  list-style: none;
 }
 
 .comment-title {
   
 }
 
-.comment {
+.comment {/* display: flex; *//* justify-content: space-between; */}
 
+.comment-body {background-color: #f7f7f7;border-radius: 2px;padding: 1.4rem 1.9rem;/* display: inline-block; */vertical-align: top;width: 40rem;/* border: 1px solid #ddd; */margin-bottom: 2rem;}
+
+.comment-body::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -10px;
+  top: 20px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right:10px solid #f7f7f7;
 }
 
-.comment-body {
-
-}
-
-.comment-author {padding: 1.5rem;border-bottom: 1px solid #ddd;}
+.comment-author {/* padding: 1.2rem; */border-bottom: 1px solid #ddd;margin-bottom: 1rem;padding-bottom: 0.6rem;}
 
 .comment-author-name {
-  color: #aaa;
+  color: #6ec1dc;
+  display: block;
+  font-family: Klavika;
 }
 
-.comment-author-avatar {border-radius: 50%;vertical-align: middle;width: 3rem;height: 3rem;}
+.comment-author-avatar {border-radius: 4px;vertical-align: top;width: 2.7rem;height: 2.6rem;margin-right: 1rem;top: 8px;}
 
-.comment-meta {
+.comment-meta {}
 
+.comment-meta a {
+  color: #bbb;
+  font-size: 0.9rem;
+}
+
+.reply {
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+.reply a {
+  color: #bbb;  
 }
 
 .comment-text {margin-bottom: 1rem;}
 
 .comment-text p {
-  color: #aaa;
+  color: #464646;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
+.comment-respond {
+
+}
+
+.children {
+
+}
+
+.comment-reply-title {margin: 0 0 0.3rem;font-size: 2.2rem;}
+
+.comment-form {
+
+}
+
+#cancel-comment-reply-link {
+  font-family: "Merriweather";
+  font-size: 1rem;
+  margin-right:2rem;
+}
+
+.logged-in-as {font-size: .9rem;margin-bottom: 1rem;}
+
+.comment-form-comment {
+
+}
+
+.comment-form-comment label {
+  display: none;
+}
+
+.comment-form-comment textarea {width: 93%;margin-bottom: 0.6rem;border-color: #ccc;}
+
+.form-submit {
+
+}
+
+.form-submit input[type="submit"] {background-color: #e85252;border: 0;border-radius: 2px;color: #fff;padding: 1rem;font-family: Merriweather;}
