@@ -1,0 +1,38 @@
+.comments {
+
+}
+
+.comment-list {
+
+}
+
+.comment-title {
+  
+}
+
+.comment {
+
+}
+
+.comment-body {
+
+}
+
+.comment-author {padding: 1.5rem;border-bottom: 1px solid #ddd;}
+
+.comment-author-name {
+  color: #aaa;
+}
+
+.comment-author-avatar {border-radius: 50%;vertical-align: middle;width: 3rem;height: 3rem;}
+
+.comment-meta {
+
+}
+
+.comment-text {margin-bottom: 1rem;}
+
+.comment-text p {
+  color: #aaa;
+}
+
