@@ -1,4 +1,4 @@
-.article-header {/* padding: 7rem 0; */height: 75vh;}
+.article-header {/* padding: 7rem 0; */height: 80vh;}
 
 #site-title {
 
@@ -50,7 +50,34 @@
 
 .post-edit-link {display: none;position: absolute;}
 
-.entry-meta {position: absolute;}
+.entry-meta {/* position: absolute; */text-align: center;}
+
+.author {margin-bottom: 1rem;}
+
+.author-avatar {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.author-name {
+  color: #fff;
+  display: inline-block;
+}
+
+.comments {
+  color: #fff;
+}
+
+.meta-sep {
+  color: #fff;
+}
+
+.entry-date {
+  color: #fff;
+}
 
 .entry-content {line-height: 1.9;}
 

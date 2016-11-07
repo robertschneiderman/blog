@@ -46,19 +46,6 @@
     <!-- <button class="newsletter-btn">Subscribe</button> -->
 </div>
 
-<script>
-function GPlusShare(pUrl){
-// Set up the window attrubutes
-var attributes = "toolbar=0,location=0,height=450,width=550";
-// Format the share url
-var url = "https://plus.google.com/share?url="+escape(pUrl);
-// Open the window
-window.open(url,'',attributes);
-}   
-</script>
-
-
-
   <!-- get_field('image') -->
 
   <div class="sm">

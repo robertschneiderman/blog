@@ -4,7 +4,6 @@
   text-align: center;
 }
 
-
 .sm-anchor {
   
 }
@@ -22,7 +21,15 @@
   transform: scale(1.2);
 }
 
-.author-container {margin-bottom: 2rem;}
+.sticky-wrapper {width: 25%;}
+
+.sticky-wrapper > #sidebar {width: 100%;}
+
+#sidebar {
+  width: 25%;
+}
+
+/*.author-container {margin-bottom: 2rem;}
 
 .author-img {display: block;}
 
@@ -37,7 +44,7 @@
   margin: 0;
 }
 
-.author-description {font-size: 1rem;line-height: 1.7;}
+.author-description {font-size: 1rem;line-height: 1.7;}*/
 
 .newsletter {background-color: #eee;padding: 2rem;margin-bottom: 3rem;text-align: center;}
 
