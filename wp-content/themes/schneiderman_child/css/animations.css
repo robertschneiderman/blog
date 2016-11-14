@@ -1,0 +1,27 @@
+html {
+  /*color: purple;*/
+}
+
+body {
+  /*color: red;*/
+  /*transform-origin: 50% 50%;*/
+  animation: shrinkIn .5s ease 0s 1 normal forwards;
+}
+
+@keyframes shrinkIn {
+  0% {
+    opacity: 0;
+    transform: scale(1.1);
+    transform-origin: 50% 0%;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform-origin: 50% 0%;    
+  }
+}
+
+#trigger {
+  position: absolute;
+  bottom: 0;
+}

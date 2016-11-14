@@ -8,6 +8,14 @@
 
 }
 
+.icon-home {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
 .hero-img, .hero-overlay {
   position: absolute;
   width: 100%;

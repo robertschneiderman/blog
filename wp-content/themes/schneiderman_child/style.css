@@ -10,6 +10,7 @@
 @import url('./css/normalize.css');
 @import url('./css/defaults.css');
 @import url('./css/helpers.css');
+@import url('./css/animations.css');
 
 @import url('./css/containers.css');
 @import url('./css/article.css');
