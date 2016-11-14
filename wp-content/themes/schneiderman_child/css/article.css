@@ -51,13 +51,13 @@
   justify-content: space-between;
 }
 
-.entry-title {line-height: 1.5;}
+.entry-title {margin: 0;line-height: 1.5;}
 
 .entry-title a {color: #fff;font-family: Klavika;font-size: 5rem;/* text-transform: uppercase; */}
 
 .post-edit-link {display: none;position: absolute;}
 
-.entry-meta {/* position: absolute; */text-align: center;}
+.entry-meta {/* position: absolute; */text-align: center;top: 3rem;}
 
 .author {margin-bottom: 1rem;}
 
@@ -76,6 +76,10 @@
 
 .comments {
   color: #fff;
+}
+
+.entry-meta {
+  top: 3rem;
 }
 
 .meta-sep {
