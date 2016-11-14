@@ -12,7 +12,7 @@
 
   <div class="newsletter">
     <h3 class="newsletter-title">Newsletter</h3>
-    <p class="newsletter-description">I will release an awesome article every Monday. Sign up!</p>
+    <p class="newsletter-description">I will release an awesome article every other Monday. Sign up!</p>
 
 
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -28,7 +28,7 @@
     <div class="mc-field-group" style="padding:0; margin:0;width:100%">
       <label class="none" for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
     </label>
-      <input type="email" value="" name="EMAIL" class="required email newsletter-input" id="mce-EMAIL">
+      <input type="email" value="" style="font-family: MetaSerif-Book, serif;" name="EMAIL" placeholder="Email" class="required email newsletter-input" id="mce-EMAIL">
     </div>
     <div id="mce-responses" class="clear">
       <div class="response" id="mce-error-response" style="display:none"></div>

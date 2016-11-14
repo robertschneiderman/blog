@@ -27,8 +27,8 @@
 }
 
 .one-half {
-  height: 2rem;
-  width: 2rem;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .two {
@@ -37,8 +37,8 @@
 }
 
 .two-half {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 2.2rem;
+  width: 2.2rem;
 }
 
 .fs-one {
@@ -54,5 +54,25 @@
 }
 
 .fs-two-half {
-  font-size: 2.5rem;
+  font-size: 1.4rem;
+}
+
+.w50 {
+  width: 50%;  
+}
+
+.w60 {
+  width: 60%;  
+}
+
+.w70 {
+  width: 70%;  
+}
+
+.w80 {
+  width: 80%;  
+}
+
+.w90 {
+  width: 90%;  
 }

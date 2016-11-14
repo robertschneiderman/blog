@@ -39,6 +39,8 @@
   font-style: italic;
   line-height: 1.9;
   margin-bottom: 3rem;
+  border-left: 5px solid #5ad899;
+  padding-left: 1.5rem;
 }
 
 .article {
@@ -59,20 +61,6 @@
 
 .entry-meta {/* position: absolute; */text-align: center;top: 3rem;}
 
-.author {margin-bottom: 1rem;}
-
-.author-avatar {
-  border-radius: 50%;
-  height: 2.5rem;
-  width: 2.5rem;
-  vertical-align: middle;
-  display: inline-block;
-}
-
-.author-name {
-  color: #fff;
-  display: inline-block;
-}
 
 .comments {
   color: #fff;
@@ -84,6 +72,7 @@
 
 .meta-sep {
   color: #fff;
+  margin: 0 0.7rem;
 }
 
 .entry-date {
@@ -104,8 +93,11 @@
 
 .entry-content blockquote {background-color: #f7f7f7;border-left: 3px solid rebeccapurple;margin: 0 0 2rem;padding: 0.6rem 2rem;font-style: italic;}
 
-.entry-content .notice-box {
+.entry-content .notice-box {padding: 0.6rem 2rem;background-color: yellow;}
 
+.entry-content .outro {
+  padding: 0.6rem 2rem;
+  font-style: italic;
 }
 
 .entry-content h2 {font-family: Klavika;font-size: 2.2rem;line-height: 2;margin: 2.5rem 0 0rem;}
@@ -122,5 +114,52 @@
 }
 
 .post {
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
+}
+
+
+.entry-footer {
+  margin: 3rem 0 8rem;
+}
+
+.author {background-color: #f8f8f8;padding: 2.5rem 2rem;/* margin: 4rem 0px; */}
+
+.author-avatar {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+
+.author-text {
+  width: 40rem;
+}
+
+.author-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 0.9rem;
+}
+
+.author-name {
+  /* color: #fff; */
+  display: inline-block;
+  margin-bottom: 0.4rem;
+}
+
+.author-description {
+
+}
+
+.taggings {
+  margin-bottom: 5rem;
+}
+
+.cat-links a {
+  margin-left: 1rem;
+  padding: 0.6rem 0.9rem;
+  background-color: #f3f3f3;
+  color: #777;
 }
