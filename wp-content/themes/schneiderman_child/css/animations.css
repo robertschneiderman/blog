@@ -5,7 +5,22 @@ html {
 body {
   /*color: red;*/
   /*transform-origin: 50% 50%;*/
-  animation: shrinkIn .5s ease 0s 1 normal forwards;
+  /*animation: shrinkIn .5s ease 0s 1 normal forwards;*/
+}
+
+.hero-text {
+  animation: fadeInUp 1s ease 0s 1 normal none;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    top: 60%;
+  }
+  100% {
+    opacity: 1;
+    top: 50%;
+  }
 }
 
 @keyframes shrinkIn {
@@ -23,5 +38,5 @@ body {
 
 #trigger {
   position: absolute;
-  bottom: 0;
+  top: 70%;
 }

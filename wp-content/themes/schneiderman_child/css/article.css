@@ -8,12 +8,19 @@
 
 }
 
+#comment {
+  padding: 0.5rem;  
+}
+
 .icon-home {
+  background-color: rgba(0,0,0,.1);
   position: fixed;
-  top: 1rem;
-  left: 1rem;
-  width: 2rem;
   height: 2rem;
+  width: 2rem;
+  padding: 0.3rem;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
 }
 
 .hero-img, .hero-overlay {
@@ -101,10 +108,10 @@
 
 .entry-content blockquote {background-color: #f7f7f7;border-left: 3px solid rebeccapurple;margin: 0 0 2rem;padding: 0.6rem 2rem;font-style: italic;}
 
-.entry-content .notice-box {padding: 0.6rem 2rem;background-color: yellow;}
+.entry-content .notice-box {padding: 0.6rem 2rem;background-color: #ffffca;}
 
 .entry-content .outro {
-  padding: 0.6rem 2rem;
+  padding: 0rem 1rem;
   font-style: italic;
 }
 
@@ -127,7 +134,7 @@
 
 
 .entry-footer {
-  margin: 3rem 0 8rem;
+  margin: 3rem 0 7rem;
 }
 
 .author {background-color: #f8f8f8;padding: 2.5rem 2rem;/* margin: 4rem 0px; */}
@@ -170,4 +177,32 @@
   padding: 0.6rem 0.9rem;
   background-color: #f3f3f3;
   color: #777;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+.comment-notes {
+  font-size: 1rem;
+  margin-bottom: 1rem;  
+}
+
+.comment-form-author {
+
+}
+
+.comment-form-email {
+
+}
+
+.comment-form-author, .comment-form-email {
+  margin-bottom: 1rem;
+}
+
+.comment-form-author input, .comment-form-email input {
+  height: 2.2rem;
+  padding: 0.4rem;
+}
+
+.comment-form-url {
+  display: none;
 }
