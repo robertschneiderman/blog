@@ -6,7 +6,7 @@
 ?>
 
 <header id="article-header" class="article-header">
-  <a href="<?php echo home_url() ?>"><img class="icon-home" src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/icon_home.svg" alt=""></a>
+  <a href="<?php echo home_url() ?>"><img class="icon-home" src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/icon_home.svg" alt="A home button for getting back to home page"></a>
   <div class="hero-img" style="background-image: url(<?php echo $image_url ?>)"></div>
   <div class="hero-overlay"></div>
   <div id="hero-text" class="hero-text">

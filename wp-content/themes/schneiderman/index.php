@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<h1 class="headline-stories">My Posts</h1>
+<h1 class="headline-stories">Schneiderman.io</h1>
 <section id="content-story" role="main">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <?php get_template_part( 'story' ); ?>

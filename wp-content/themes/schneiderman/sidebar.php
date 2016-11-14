@@ -50,13 +50,13 @@
 
   <div class="sm">
     <div class="fb sb">
-      <a id="fb-link" onClick="fbDialog()" class="sm-anchor"><img src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/facebook_round.svg" alt="" class="sm-icon"></a>
+      <a id="fb-link" onClick="fbDialog()" class="sm-anchor"><img src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/facebook_round.svg" alt="A button to share this article on Facebook" class="sm-icon"></a>
       <a 
         id="twitter-link"
         class="sm-anchor"
         target="_blank"
         href="https://twitter.com/share">
-          <img src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/twitter_round.svg" alt="" class="sm-icon">
+          <img src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/twitter_round.svg" alt="A button to share this article on Twitter" class="sm-icon">
       </a>
       <a
         id="linked-in-link"
@@ -65,12 +65,13 @@
         href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>&title=<?php echo get_the_title(); ?>
         &summary=<?php echo get_the_excerpt(); ?>&source=LinkedIn"
         class="sm-anchor">
-        <img src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/linkedin_round.svg"alt="" class="sm-icon">
+        <img src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/linkedin_round.svg"alt="A button to share this article on LinkedIn" class="sm-icon">
       </a>
       <a 
         href="https://plus.google.com/share?url=<?php echo get_the_permalink() ?>"
+        target="_blank"        
         class="sm-anchor">
-        <img class="sm-icon" src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/google_plus_round.svg" alt="">
+        <img class="sm-icon" src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/google_plus_round.svg" alt="A button to share this article on Google Plus">
       </a>
     </div>
   </div>

@@ -19,13 +19,13 @@
     </p>
     <div>
       <a href="https://twitter.com/nyc_robert" target="_blank">
-        <img class="one-half ibm" style="margin-right: 0.4rem;" src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/twitter_author.svg" alt="">
+        <img class="one-half ibm" style="margin-right: 0.4rem;" src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/twitter_author.svg" alt="link to Robert Schneiderman's Twitter">
       </a>
       <a href="https://linkedin.com/in/robert-schneiderman/" target="_blank">
-        <img class="one-half ibm" style="margin-right: 0.4rem;" src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/linkedin_author.svg" alt="">
+        <img class="one-half ibm" style="margin-right: 0.4rem;" src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/linkedin_author.svg" alt="link to Robert Schneiderman's LinkedIn">
       </a>
       <a href="https://github.com/robertschneiderman" target="_blank">      
-        <img class="one-half ibm" src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/github_author.svg" alt="">
+        <img class="one-half ibm" src="http://d4fd8edb5357e3663250-e9db5fe345a903020dd4e30b554d328e.r74.cf5.rackcdn.com/github_author.svg" alt="link to Robert Schneiderman's Github">
       </a>
     </div>
   </div>
