@@ -76,3 +76,9 @@
 .w90 {
   width: 90%;  
 }
+
+.img-75 {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}

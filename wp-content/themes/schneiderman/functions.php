@@ -19,6 +19,7 @@
   // wp_enqueue_script('twitter-popup', 'https://platform.twitter.com/widgets.js');
   // wp_enqueue_script('google-plus', 'https://apis.google.com/js/platform.js');
   wp_enqueue_script( 'prism', get_template_directory_uri() . '/js/prism.js' ); 
+  wp_enqueue_script( 'lazyload-xt', "//cdn.jsdelivr.net/jquery.lazyloadxt/1.0.0/jquery.lazyloadxt.min.js" ); 
   wp_enqueue_script( 'sticky', get_template_directory_uri() . '/js/jquery.sticky.js' ); 
   wp_enqueue_script( 'scrollMagic', 'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js' ); 
   wp_enqueue_script( 'smIndicators', 'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js' );
